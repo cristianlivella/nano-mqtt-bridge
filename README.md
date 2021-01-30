@@ -1,5 +1,5 @@
 # Nano MQTT bridge
-This tool listens for confirmed blocks via websocket connection to a [Nano Node](https://docs.nano.org/integration-guides/websockets/) and republish them on a MQTT broker.
+This tool listens for confirmed blocks via a websocket connection to a [Nano Node](https://docs.nano.org/integration-guides/websockets/) and republish them on a MQTT broker.
 
 Only send blocks are published; for each block are published two messages on the following topics, where A is the sender Nano address and B is the recipient Nano address:
 ```
